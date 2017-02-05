@@ -1102,7 +1102,7 @@ section.top_banner_bg:after {
   font-weight: 300;
   line-height: 45px;
   margin: 0;
-  padding: 0 0 50px;
+/*   padding: 0 0 50px; */
   color:#555454;
 }
 
@@ -1124,7 +1124,7 @@ font-size: 26px;
 }
 
 .features_detail {
-  margin-top: 30px;
+/*   margin-top: 10px; */
 }
 
 
@@ -1156,7 +1156,7 @@ font-size: 26px;
   font-weight: 300;
   line-height: 45px;
   margin: 0;
-  padding: 0 0 50px;
+/*   padding: 0 0 50px; */
   color:#fff;
 }
 
@@ -2033,7 +2033,7 @@ footer .footer_bottom {
 .section_heading h2 {  font-size: 35px; line-height:50px;}
 .section_heading h4 {  font-size: 20px;  line-height: 30px;}
 .features_detail {  margin-top: 30px;}
-.features_detail li {  border-right: none;  text-align: center;  width: 100%;}
+.features_detail li {  border-right: none;  text-align: left;  width: 100%;}
 .features_img {  text-align: center;width: 100%;}
 .services_img {  display:none;}
 .services_img_n {  margin: 0 auto;  padding: 20px 5px 0;  text-align: center;  width: 100%;}
@@ -2070,8 +2070,6 @@ article {  margin: 0 0 70px;}
 .workng_img {  margin: 30px auto 40px;}
 .section_btn .btn.btn-default {  margin: 20px 5px 0;}
 .footer_top > h4 {  font-size: 20px;  line-height: 30px;margin: 0 auto 25px;}
-.features_detail li:nth-child(2n) {  text-align: center;}
-.features_detail li:nth-last-child(2) {  border-bottom: 1px solid hsl(0, 0%, 80%);}
 .pull-right {  float: none;  width: 100%;}
 .contact_text span {  font-size: 30px;}
 
@@ -2214,10 +2212,8 @@ section {  padding: 60px 0;}
 .section_heading h2 {  font-size: 40px;}
 .section_heading h4 {  font-size: 26px;  line-height: 40px;}
 .features_detail {  margin-top: 30px;}
-.features_detail li {  border-right: none;  text-align: center;  width: 100%;}
+.features_detail li {  border-right: none;  text-align: left;  width: 100%;}
 .features_img {  text-align: center;}
-.features_detail li:nth-child(2n) {  text-align: center;}
-.features_detail li:nth-last-child(2) {  border-bottom: 1px solid #cccccc;}
 .features_img.pull-left {  float: none;width: 100%;}
 .services_img_n {  margin: 0 auto;  text-align: center;}
 .how_it_work_m {  margin-top: 15px;  text-align: center;}
