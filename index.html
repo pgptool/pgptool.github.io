@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>PGP Tool</title>
-
-<!-- Bootstrap CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- CSS Custom -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-<!-- favicon Icon -->
-<!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">-->
-<!-- CSS Plugins -->
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/animate.min.css">
-<!-- Google Fonts -->
-<link
-	href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700'
-	rel='stylesheet' type='text/css'>
-<link
-	href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700'
-	rel='stylesheet' type='text/css'>
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>PGP Tool</title>
+    
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- CSS Custom -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- favicon Icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- CSS Plugins -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -36,66 +32,594 @@
 </head>
 <body>
 
-	<section class="coming_soon_bg secondary-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+
+<header class="navbar-fixed-top">
+	<div class="container">
+    	<div class="row">
+        	<div class="header_top">
+        		<div class="col-md-2">
+            		<div class="logo_img">
+						<a href="#"> PGP Tool </a>
+					</div>
+				</div>
+					
+				<div class="col-md-10">
+					<div class="menu_bar">	
+						<nav role="navigation" class="navbar navbar-default">
+							<div class="navbar-header">
+                                <button id="menu_slide"  aria-controls="navbar" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+							   </div>
+							   
+							  <div class="collapse navbar-collapse" id="navbar">
+									<ul class="nav navbar-nav">
+									  <li><a href="#home" class="js-target-scroll">Home</a></li>
+									  <li><a href="#download" class="js-target-scroll">Download</a></li>
+									  <li><a href="#help" class="js-target-scroll">Help</a></li>
+									  <li><a href="#userfriendly" class="js-target-scroll">User-friendly</a></li>
+									  <li><a href="#contribute" class="js-target-scroll">Contribute</a></li>
+									  <li><a href="#faq" class="js-target-scroll">FAQ</a></li>
+									</ul>      
+                          		</div>
+						</nav>
+					</div>
+    	        </div>
+			  
+			  </div>
+			</div>
+		</div>
+</header>
+
+<section id="home" class="top_banner_bg secondary-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-10 col-sm-12">
+					<div class="present2">
+						<h1>PGP Tool is a Free and a very User-friendly OpenPGP desktop application</h1>
+					</div>
+				</div>
+				<div class="col-md-2 hidden-sm hidden-xs">
+					<div class="present_img" style="padding-top: 55px;">
+<!-- 						<img src="images/safe-256.png" alt="image"> -->
+					</div>
+				</div>
+			</div>		
+		</div>		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-10">
+					<div class="present">
+						<div class="section_btn">
+							<a href="#download" class="js-target-scroll"> 
+								<button class="btn btn-default" type="submit"> 
+								<i class="fa fa-download" aria-hidden="true"></i> Download</button> 
+							</a>
+						</div>
+						<h5>Available for <span>Windows</span>, <span>Linux</span> and <span>MacOS</span> </h5>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<br />
+		</div>
+	</div>
+</section>
+
+
+<section class="primary-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+			<div class="section_heading">
+				<h2> FEATURES </h2>
+				
+				<h4> You don’t have to choose between Secure and Comfortable. Application remembers 
+				parameters of each action taken and suggest same parameters on subsequent invocations </h4>
+			</div>		
+				
+			<div class="col-md-6">
+				<div class="features_detail">
+					<ul>
+						<li>Supports multiple platforms: Windows, Linux and MacOS</li>
+						<li>Manage your PGP key ring</li>
+						<li>Remembers each operation parameters and suggest same parameters when appropriate</li>
+						<li>Helps you to avoid leaving sensitive data in un-encrypted state</li>
+					</ul>
+				</div>
+			</div>
+			
+				<div class="col-md-6">
+					<div class="features_img pull-left">
+						<img src="images/encrypt_back_linux_white.png" alt="image">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="download" class="padding_bottom_none our_service_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section_heading section_heading_2">
+					<h2> Download </h2>
+					
+					<h4> Application requires Java Runtime Environment to run. You might already have it. 
+					If not you’ll be able to install it from the <a href="https://java.com/en/download/" target="_blank">official Oracle
+					 site</a> <i class="fa fa-external-link" aria-hidden="true"></i>   </h4>
+				</div>
+
+				<div class="col-md-6 section_heading section_heading_2">
+					<h4> Windows </h4>
+					<p>It's as simple as downloading and installing this installer package.</p>
+					
+					<div class="section_btn">
+						<a href="http://www.eftracker.ru/articles-attachments/72/pgptoolgui-0.2.1.0.msi"> 
+							<button class="btn btn-default" type="submit"> 
+							<i class="fa fa-download" aria-hidden="true"></i> Download</button>
+						</a>
+					</div>					
+					<p>pgptool-0.2.0.0.msi (25mb)</p>
+				</div>
+				<div class="col-md-6 section_heading section_heading_2">
+					<h4> MacOS / Linux </h4>
+					<p>At this moment installer for these operation system <a href="https://github.com/pgptool/pgptool/wiki/Manual-installation" target="_blank">is 
+					not provided</a> <i class="fa fa-external-link" aria-hidden="true"></i> so 
+					you’ll have to manually unpack this archive and run it using java. If Double-click doesn’t work then run in command line:
+					</p> 
+					<pre>java -jar pgptoolgui-0.2.0.0.jar</pre>
+
+					<div class="section_btn">
+						<a href="http://www.eftracker.ru/articles-attachments/73/pgptoolgui-0.2.1.0.zip"> 
+							<button class="btn btn-default" type="submit"> 
+							<i class="fa fa-download" aria-hidden="true"></i> Download</button>
+						</a>
+					</div>					
+					<p>pgptool-0.2.0.0.zip (25mb)</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<br />
+		</div>
+	</div>
+</section>
+
+
+<section id="help" class="primary-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section_heading">
+					<h2> Help </h2>
+					<h4> Need help? Have a question or discovered a bug? Here is what you can do</h4>
+				</div>		
+				
+				<div class="col-md-6 section_heading">
+					<h4> Have a question? </h4>
+					<div class="left_text">
+						<p>Please be sure to check out <a href="#faq" class="js-target-scroll">FAQ</a> for common questions first.</p>
+						<p>Then feel free to ask any questions using:</p>
+						<ul>
+							<li>Chat on <a href="https://gitter.im/pgptool/Lobby#" target="_blank">Gitter</a> <i class="fa fa-external-link" aria-hidden="true"></i>
+							(prompt answer is not guaranteed though)</li>
+							<li>Ask questions by <a href="https://github.com/pgptool/pgptool/issues/new?labels=question" target="_blank">creating new issue</a> <i class="fa fa-external-link" aria-hidden="true"></i> on a GitHub</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-6 section_heading">
+					<h4> Discovered a bug? </h4>
+					<div class="left_text">
+						<p>We’re sorry to hear that !</p>
+						<p>Please file a bug report by <a href="https://github.com/pgptool/pgptool/issues/new?labels=bug" target="_blank">creating an 
+						issue</a> <i class="fa fa-external-link" aria-hidden="true"></i> on a Github. Please make sure to describe:</p>
+						<ul>
+							<li>All steps one can take to reproduce this issue</li>
+							<li>Tell us about your program and operation system type and version, i.e. PGPTool v1.1.0.0, Windows 10</li>
+							<li>Provide relevant screenshots</li>
+							<li>Any other info concerning this issue</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section id="userfriendly" class="testimonial_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section_heading section_heading_2">
+					<h2>USER FRIENDLY </h2>
+				
+					<h4> PGP Tool is at least 200% more user friendly than others. <br />Here are the details why:</h4>
+				</div>
+
+ 				<div class="col-md-12 section_heading section_heading_2" style="text-align: left;">
+					<p>Encryption/Decryption is not a goal itself, it’s a way to achieve goal -- safety for sensitive data.</p> 
+					<p>There are couple common scenarios:</p>
+					<ol>
+						<li>You’ve created a file that contains sensitive information and you need to store it or send it over the network</li>
+						<li>You’ve received encrypted file and you need to read the contents, maybe update it and encrypt and send it back</li>
+					</ol>
+					<p>In all these scenarios you also need to make sure sensitive information will not remain in un-encrypted state. </p>
+					<p>Now let’s see what it takes to achieve this using PGP Tool versus Average PGP software (<b>LESS actions -- better</b>)</p>
+				</div>
+
+ 				<div class="col-md-12 section_heading section_heading_2 semi-opacity">
+					<h4 style="padding-bottom: 20px; padding-top: 30px;"> SCENARIO #1: Encrypt the file </h4>
+					<p>(presuming you've already encrypted at list one file from the same folder)</p>
+	 				<div class="col-md-6">
+						<h4 style="padding-bottom: 20px; padding-top: 30px;"> PGP Tool </h4>
+						<div class="left_text">
+							<ol>
+								<li>Locate file using the file explorer</li>
+								<li>Open context menu and choose “PGP Encrypt”</li>
+								<li>Click Encrypt</li>
+							</ol>
+						</div>
+					</div>							
+	 				<div class="col-md-6">
+						<h4 style="padding-bottom: 20px; padding-top: 30px;"> Average PGP software </h4>
+						<div class="left_text">
+							<ol>
+								<li>Open PGP application</li>
+								<li>Trigger encryption action</li>
+								<li>Browse for source file</li>
+								<li>Browse for target file</li>
+								<li>Select recipients</li>
+								<li>Click Encrypt</li>
+								<li>Open file explorer and locate source (un-encrypted) file, delete it</li>
+								<li>Locate target (encrypted) file</li>
+							</ol>
+						</div>
+					</div>
+	 				<div class="col-md-12 left_text semi-opacity-gray" style="padding-top: 7px;">
+	 					<p>The "magic" happens because PGP Tool application remembered:</p>
+	 					<ul>
+	 						<li>Where to place encrypted file</li>
+	 						<li>List of recipients to encrypt for</li>
+	 						<li>Whether or not to delete source file</li>
+	 						<li>Whether or not to open target folder</li>
+	 					</ul>
+	 				</div>
+	 				<div class="col-md-12">
+						<br />
+					</div>
+				</div>
+				
+ 				<div class="col-md-12">
+					<br />
+				</div>
+				
+ 				<div class="col-md-12 section_heading section_heading_2 semi-opacity">
+					<h4 style="padding-bottom: 20px; padding-top: 30px;"> SCENARIO #2: Decrypt, edit, encrypt back </h4>
+	 				<div class="col-md-6">
+						<h4 style="padding-bottom: 20px; padding-top: 30px;"> PGP Tool </h4>
+						<div class="left_text">
+							<ol>
+								<li>Locate file using the file explorer and Double-click</li>
+								<li>Enter the passphrase (might not be needed if remembered)</li>
+								<li>Confirm decryption <br /><br />
+								(edit/view file in associated application, i.e. Excel or Word then close it)
+								<br /><br /></li>
+								<li>Return to PGP Tool application</li>
+								<li>For the file in history click “Encrypt back”	</li>
+								<li>Confirm parameters and click Encrypt</li>
+							</ol>
+						</div>
+					</div>							
+	 				<div class="col-md-6">
+						<h4 style="padding-bottom: 20px; padding-top: 30px;"> Average PGP software </h4>
+						<div class="left_text">
+							<ol>
+								<li>Open other PGP software</li>
+								<li>Trigger decryption action</li>
+								<li>Browse for input file</li>
+								<li>Browse for output file</li>
+								<li>Enter the passphrase</li>
+								<li>Confirm decryption</li>
+								<li>Open file explorer and browse for target folder and double click on un-encrypted file <br /><br />
+								(edit/view file in associated application, i.e. Excel or Word then close it)
+								<br /><br /></li>
+								<li>Open PGP application</li>
+								<li>Trigger encryption action</li>
+								<li>Browse for source file</li>
+								<li>Browse for target file</li>
+								<li>Select recipients</li>
+								<li>Click Encrypt</li>
+								<li>Open file explorer and locate source (un-encrypted) file, delete it</li>
+								<li>Locate encrypted file in a file browser</li>
+							</ol>
+						</div>
+					</div>
+	 				<div class="col-md-12 left_text semi-opacity-gray" style="padding-top: 7px;">
+	 					<p>The "magic" happens because PGP Tool application:</p>
+	 					<ul>
+	 						<li>Keeps track of decrypted files thus it can suggest encryption options (you do NOT need to remember recipients for each file when you’re encrypting it back)</li>
+	 						<li>Opens target application automatically</li>
+	 						<li>Automatically deletes un-encrypted version of file from the disk</li>
+	 						<li>Provides a list of monitored decrypted files to give you easy access to them</li>
+	 					</ul>
+	 				</div>
+	 				<div class="col-md-12">
+						<br />
+					</div>
+				</div>					
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="screenshots" class="primary-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<div class="section_heading">
+					<h2> Screenshots</h2>
 					<div class="col-md-12">
-						<div class="coming_soon_img">
-							<img src="images/comingsoon.png" alt="image">
-						</div>
+						<h4 style="padding-bottom: 0;">Encryption window</h4>
+						<img src="images/encryption_annotated.png" />
 					</div>
-					<div class="col-md-12" style=" padding-bottom: 200px;">
-						<div class="side_section">
-							<div class="coming_soon_detail">
-								<h2>This Site is Almost Ready We're Coming Soon...</h2>
-							</div>
-							<div class="timer">
-								<div id="defaultCountdown"></div>
-							</div>
-						</div>
+					<div class="col-md-12">
+						<h4 style="padding-bottom: 0;padding-top: 50px;">Decryption window</h4>
+						<img src="images/decryption_annotated.png" />
 					</div>
-				</div>
+					<div class="col-md-12">
+						<h4 style="padding-bottom: 0;padding-top: 50px;">Monitoring decrypted</h4>
+						<img src="images/monitoring_annotated.png" />
+					</div>
+				</div>		
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-
-	<footer class="coming_soon_footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>
-						This website is based on Free <a
-							href="http://www.pfind.com/goodies/applayers/" target="_blank">AppLayers</a>
-						<i class="fa fa-external-link" aria-hidden="true"></i> Template
-						from <a href="http://www.pfind.com/goodies/">pFind Goodies</a>.
-					</p>
+<section id=contribute class="price_table_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section_heading section_heading_2">
+					<h2> Contribute </h2>
+				
+					<h4> You can help to make this application even better and feature rich!</h4>
 				</div>
+							
+
+				<div class="col-md-6 section_heading section_heading_2">
+					<h4> Missing a feature? </h4>
+					<div class="left_text">
+						<p>This project is not just a Free software it’s also an Open Source project! You can contribute!</p>
+						<p>Which effectively means that there are number of ways to get what you want:</p>
+						<ul>
+							<li>The bare minimum you can do is you can check if this feature was already requested <a href="https://github.com/pgptool/pgptool/issues" target="_blank">here</a> <i class="fa fa-external-link" aria-hidden="true"></i> 
+							(it might be on it’s way).</li>
+							<li>If it’s not there you can <a href="https://github.com/pgptool/pgptool/issues/new?labels=feature+request" target="_blank">add new one</a> <i class="fa fa-external-link" aria-hidden="true"></i> 
+							Please make sure to describe anticipated how to demo scenario and all possible 
+							side-effects/intersections with other features you can think of</li>
+							<li>You can use money to vote for features you want to get implemented next. Project is making 
+							use of <a href="https://www.bountysource.com/teams/pgptool/issues" target="_blank">crowdfunding 
+							platform</a> <i class="fa fa-external-link" aria-hidden="true"></i> 
+							to raise money and pay developers for features implementation</li>
+							<li>If you’re a happy java developer please feel free to contribute by submitting pull requests
+							 (be sure to follow <a href="https://github.com/pgptool/pgptool/wiki/Project-charter" target="_blank">project 
+							 charter</a> <i class="fa fa-external-link" aria-hidden="true"></i>)</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-6 section_heading section_heading_2">
+					<h4> Support this project </h4>
+					<div class="left_text">
+						<p>If you are a happy user of this useful application and you want ..</p>
+						<ul>
+							<li>.. this project to evolve, stay available to you and other people</li>
+							<li>.. to thank people who are working on it</li>
+							<li>.. to show a nice gesture of appreciation</li>
+						</ul>
+						<p>.. please don’t hesitate to "buy me a coffee"</p>
+					</div>
+					<div class="img">
+						<a href="https://paypal.me/SergeyKarpushin" target="_blank"><img src="images/paypal-75.png" alt="Buy me a coffee"></a>
+						<p>(PayPal account required)</p>
+					</div>
+				</div>
+				
 			</div>
 		</div>
-	</footer>
+	</div>
+</section>
 
 
+<section class="primary-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+											
+ 				<div class="col-md-3">
+					<div class="member_detail">
+						<div class="member_img">
+							<img src="images/sk avatar.png" alt="image">
+						</div>
+						<div class="member_name">
+							<h5> Sergey Karpushin </h5>
+							<p> Technical Sales Manager at <a href="https://www.auriga.com/" target="_blank">Auriga Inc.</a> 
+							<i class="fa fa-external-link" aria-hidden="true"></i> </p>
+						</div>
+					</div>
+				</div> 
+
+ 				<div class="col-md-9 section_heading" style="text-align: left;">
+					<p>Hi there! I'm creator and maintainer of this project. I hope it helps you as much as it 
+					helps me to minimize routine operations and increase data security when working with PGP encrypted files.</p>
+					
+					<p>Couple words about me: </p>
+					<p>I'm passionate and enthusiastic about software development. Primarily because I love when technology 
+					enables people to focus on creative work rather than on routine steps.</p>
+					<p>All my career and hobby related to software development. I worked as C++ and C# developer. I've succeeded as 
+					Java Developer, Team Leader and Project Manager.</p>
+					<p>Now I'm using the knowledge I gathered plus good communication skills to help start new projects and make 
+					sure customer expectations  are being met on early stages of new engagements.</p>
+				</div>
+								
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="faq" class="fifth-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<div class="section_heading">
+					<h2> Frequently Asked Questions </h2>
+				</div>
+				
+				<div class="col-md-12 light_plate faq_item">
+					<p><b>Question:</b> So what is OpenPGP ?</p>
+					<p><b>Answer:</b> PGP stands for Pretty Good Privacy.</p>
+					<p>OpenPGP software uses a combination of strong public-key and symmetric cryptography to 
+					provide security services for electronic communications and data storage. These services 
+					include confidentiality, key management, authentication, and digital signatures.</p>
+					<p>For those who wants to know more technical details you can start with this article on 
+					<a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank">Wikipedia</a> 
+					<i class="fa fa-external-link" aria-hidden="true"></i></p>
+					<p>On a high-level it works like this:</p>
+					<ul>
+						<li>First of all you need to create <b>PGP key-pair</b></li>
+						<li>it’s called a key-pair because there is a pair of keys - <b>private</b> and <b>public</b></li>
+						<li>When file is <b>encrypted</b> (locked) with a Public key it’s considered safe (unauthorized 
+						people will not be able to unlock it and read the contents). File can be encrypted with 
+						multiple public keys (presuming multiple people are allowed to access the file)</li>
+						<li>if Alice wants to encrypt file so that only Bob can decrypt it she needs to <b>ask Bob 
+						to send his public key</b> and select only this key when encrypting file</li>
+						<li>One of the matching Private keys is required to <b>decrypt</b> (unlock) the file. 
+						Passphrase is required to use private key</li>
+						<li>To avoid jeopardizing the whole security idea <b>NEVER share your private key</b> with other 
+						people and DO NOT send private key over the internet</li>
+					</ul>
+				</div>
+				
+				<div class="col-md-12 light_plate faq_item">
+					<p><b>Question:</b> Are there any other ways to send money other than PayPal ?</p>
+					<p><b>Answer:</b> No. Not at this moment.</p>
+				</div>
+								
+				<div class="col-md-12 light_plate faq_item">
+					<p><b>Question:</b> How can I contribute to this project? I’m not a java developer ?</p>
+					<p><b>Answer:</b> Do you mean other than by donating money in general or backing particular feature/improvement with money?
+First of all make sure you are aware of a non-profit nature of this project. You might not get paid if there is not enough budget. Project is trying to make use of crowdfunding and donations which is a not a guaranteed source of income :-)
+So having you understand that -- send me your CV and I’ll get back to you. Send email to the “sergey period v period karpushin at the gmail”.</p>
+				</div>				
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="third-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				
+				<div class="footer_top">
+					<h4></h4>
+					
+					<!-- <ul>
+						<li> <a href="http://facebook.com/"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+						<li> <a href="http://twitter.com/"> <i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+						<li> <a href="http://linkedin.com/"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> </li>
+						<li> <a href="http://google.com/"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a> </li>
+						<li> <a href="http://youtu.be/"> <i class="fa fa-youtube-square" aria-hidden="true"></i> </a> </li>
+						<li> <a href="https://www.instagram.com"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> </li>
+					</ul> -->
+				</div>
+				
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer_bottom fourth-bg">
+          <p> This website is based on Free <a href="http://www.pfind.com/goodies/applayers/" target="_blank">AppLayers</a> 
+          <i class="fa fa-external-link" aria-hidden="true"></i> Template from <a href="http://www.pfind.com/goodies/">pFind Goodies</a>. </p>
+        <a href="#" class="backtop"> ^ </a>
+    </div>
+				
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/interface.js"></script> 
+<script type="text/javascript"> 
+	$(document).ready(function(){
+	$("#menu_slide").click(function(){
+		$("#navbar").slideToggle('normal');
+	});
+	});
+ </script>
+<!--Menu Js Right Menu-->
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#navbar > ul > li:has(ul)').addClass("has-sub");
+  $('#navbar > ul > li > a').click(function() {
+    var checkElement = $(this).next();
+    $('#navbar li').removeClass('dropdown');
+    $(this).closest('li').addClass('dropdown');	
+    if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+      $(this).closest('li').removeClass('dropdown');
+      checkElement.slideUp('normal');
+    }
+    if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+      $('#navbar ul ul:visible').slideUp('normal');
+      checkElement.slideDown('normal');
+    }
+    if (checkElement.is('ul')) {
+      return false;
+    } else {
+      return true;	
+    }		
+  });
+});
+<!--end-->
+</script>
+<script type="text/javascript">	
+$("#navbar").on("click", function(event){
+    event.stopPropagation();
+});
+$(".dropdown-menu").on("click", function(event){
+    event.stopPropagation();
+});
+$(document).on("click", function(event){
+    $(".dropdown-menu").slideUp('normal');
+});	
+
+$(".navbar-header").on("click", function(event){
+    event.stopPropagation();
+});
+$(document).on("click", function(event){
+    $("#navbar").slideUp('normal');
+});		
+</script>
 
 </body>
-
-<!-- JS Global -->
-<script src="js/jquery_003.js"></script>
-
-<script src="js/jquery_002.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.plugin.min.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-<script>
-	$(function() {
-		var austDay = new Date();
-		austDay = new Date(austDay.getFullYear(), 1, 13);
-		$('#defaultCountdown').countdown({
-			until : austDay
-		});
-		$('#year').text(austDay.getFullYear());
-	});
-</script>
-</html>
+<!-- JS Plugins -->
+  </html>

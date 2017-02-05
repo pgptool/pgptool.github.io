@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>PGP Tool</title>
+
+<!-- Bootstrap CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- CSS Custom -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- favicon Icon -->
+<!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">-->
+<!-- CSS Plugins -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.min.css">
+<!-- Google Fonts -->
+<link
+	href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700'
+	rel='stylesheet' type='text/css'>
+<link
+	href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700'
+	rel='stylesheet' type='text/css'>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<section class="coming_soon_bg secondary-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-12">
+						<div class="coming_soon_img">
+							<img src="images/comingsoon.png" alt="image">
+						</div>
+					</div>
+					<div class="col-md-12" style=" padding-bottom: 200px;">
+						<div class="side_section">
+							<div class="coming_soon_detail">
+								<h2>This Site is Almost Ready We're Coming Soon...</h2>
+							</div>
+							<div class="timer">
+								<div id="defaultCountdown"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="coming_soon_footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						This website is based on Free <a
+							href="http://www.pfind.com/goodies/applayers/" target="_blank">AppLayers</a>
+						<i class="fa fa-external-link" aria-hidden="true"></i> Template
+						from <a href="http://www.pfind.com/goodies/">pFind Goodies</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+
+<!-- JS Global -->
+<script src="js/jquery_003.js"></script>
+
+<script src="js/jquery_002.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script>
+	$(function() {
+		var austDay = new Date();
+		austDay = new Date(austDay.getFullYear(), 1, 13);
+		$('#defaultCountdown').countdown({
+			until : austDay
+		});
+		$('#year').text(austDay.getFullYear());
+	});
+</script>
+</html>
