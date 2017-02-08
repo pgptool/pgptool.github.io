@@ -1,0 +1,18 @@
+User-agent: Yandex
+Crawl-delay: 10
+Disallow: /images/
+Disallow: /js/
+Disallow: /css/
+Host: pgptool.github.io
+
+User-agent: Googlebot
+Crawl-delay: 10
+Disallow: /images/
+Disallow: /js/
+Disallow: /css/
+
+User-agent: *
+Crawl-delay: 10
+Disallow: /images/
+Disallow: /js/
+Disallow: /css/
