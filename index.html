@@ -156,8 +156,8 @@
 				<div class="section_heading section_heading_2">
 					<h2> Download </h2>
 					
-					<h4> Application requires Java Runtime Environment 1.8 to run. You might already have it. 
-					If not you’ll be able to install it from the <a href="https://java.com/en/download/" target="_blank">official Oracle
+					<h4> Application requires Java Runtime Environment 1.8+ to run. You might already have it. 
+					If not, you’ll be able to install it from the <a href="https://java.com/en/download/" target="_blank">official Oracle
 					 site</a> <i class="fa fa-external-link" aria-hidden="true"></i>   </h4>
 				</div>
 
@@ -166,8 +166,10 @@
 				</div>
 
 				<div class="col-md-6 section_heading section_heading_2">
-					<h4> Windows </h4>
-					<p>It's as simple as downloading and installing this installer package.</p>
+					<h4> Microsoft Windows Installer </h4>
+					<p>It's as simple as downloading and installing this MSI package.</p>
+					<p><b>NOTE</b>: In case you're using non-Oracle JRE, you'll have to download zip 
+					package on the right and start PGPTool from command line as explained on the right</p>
 					
 					<div class="section_btn">
 						<a href="https://github.com/pgptool/pgptool/releases/download/0.5.4.0/pgptoolgui-0.5.4.0.msi"> 
@@ -178,10 +180,10 @@
 					<p>(~14mb)</p>
 				</div>
 				<div class="col-md-6 section_heading section_heading_2">
-					<h4> MacOS / Linux </h4>
-					<p>At this moment installer for these operation system <a href="https://github.com/pgptool/pgptool/wiki/Manual-installation" target="_blank">is 
-					not provided</a> <i class="fa fa-external-link" aria-hidden="true"></i> so 
-					you’ll have to manually unpack this archive and run it using java. If Double-click doesn’t work then run in command line:
+					<h4> ZIP package (any Operation System) </h4>
+					<p>Alternative way of running PGPTool on any operation system which has JRE installed. 
+					Details can be found <a href="https://github.com/pgptool/pgptool/wiki/Manual-installation" target="_blank">here</a> <i class="fa fa-external-link" aria-hidden="true"></i> 
+					Bottom line: you’ll need to download, unzip and run it using java. If Double-click doesn’t work, then run following command line:
 					</p> 
 					<pre>java -jar pgptoolgui-0.5.4.0.jar</pre>
 
@@ -383,10 +385,10 @@
 				</div>
 				
 				<div class="col-md-6 section_heading">
-					<h4> Discovered a bug? </h4>
+					<h4> Discovered a defect? </h4>
 					<div class="left_text">
 						<p>We’re sorry to hear that !</p>
-						<p>Please file a bug report by <a href="https://github.com/pgptool/pgptool/issues/new?labels=bug" target="_blank">creating an 
+						<p>Please file a defect report by <a href="https://github.com/pgptool/pgptool/issues/new?labels=bug" target="_blank">creating an 
 						issue</a> <i class="fa fa-external-link" aria-hidden="true"></i> on a Github. Please make sure to describe:</p>
 						<ul>
 							<li>All steps one can take to reproduce this issue</li>
@@ -488,10 +490,6 @@
 					<h4> Support this project </h4>
 					<div class="left_text">
 						<ul>
-							<li>You can use money to vote for features you want to get implemented next. Project is trying to  
-							use <a href="https://www.bountysource.com/teams/pgptool/issues" target="_blank">crowd-funding 
-							platform</a> <i class="fa fa-external-link" aria-hidden="true"></i> 
-							to raise money and incentivise developers to implement features you want</li>
 							<li>If you’re a happy java developer please feel free to contribute by submitting pull requests
 							 (be sure to follow <a href="https://github.com/pgptool/pgptool/wiki/Project-charter" target="_blank">project 
 							 charter</a> <i class="fa fa-external-link" aria-hidden="true"></i>)</li>
@@ -527,16 +525,15 @@
 					<p>Hi there! I'm creator and maintainer of this project. I hope it helps you as much as it 
 					helps me to minimize routine operations and increase data security when working with PGP encrypted files.</p>
 					<p>
-						<span>If you enjoy this program and want to appreciate it - you can always</span>
+						<span>If you enjoy this program and want to express it, you can always</span> <br />
 						<style>.bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF813F !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 0px 9px !important;font-size: 17px !important;letter-spacing:-0.08px !important;;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Lato', sans-serif !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/skarpushind"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
 					</p>
 					
 					<p>Couple words about me: </p>
-					<p>I'm passionate and enthusiastic about software development. Primarily because I love when technology 
-					enables people to focus on creative work rather than on routine steps.</p>
 					<p>Both my work and hobby are related to software development. I worked as a C++ and C# developer. I've succeeded as 
 					a Java Developer, Team Leader and a Project Manager.</p>
-					<p>I believe that the only way to predict you future is to build it!</p>
+					<p>I'm passionate and enthusiastic about software development. Primarily because I love when technology 
+					enables people to focus on creative work rather than on routine tasks.</p>
 				</div>
 								
 			</div>
