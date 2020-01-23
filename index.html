@@ -156,9 +156,7 @@
 				<div class="section_heading section_heading_2">
 					<h2> Download </h2>
 					
-					<h4> Application requires Java Runtime Environment 1.8+ to run. You might already have it. 
-					If not, you’ll be able to install it from the <a href="https://java.com/en/download/" target="_blank">official Oracle
-					 site</a> <i class="fa fa-external-link" aria-hidden="true"></i>   </h4>
+					<h4> Application <b>requires</b> Java Runtime Environment 1.8+ <br /> (see below for more details)</h4>
 				</div>
 
 				<div class="col-md-12 hidden-sm hidden-xs">
@@ -166,13 +164,13 @@
 				</div>
 
 				<div class="col-md-6 section_heading section_heading_2">
-					<h4> Microsoft Windows Installer </h4>
-					<p>It's as simple as downloading and installing this MSI package.</p>
-					<p><b>NOTE</b>: In case you're using non-Oracle JRE, you'll have to download zip 
-					package on the right and start PGPTool from command line as explained on the right</p>
+					<h4> Windows Installer package </h4>
+					<p>It is as simple as downloading and installing this MSI package.</p>
+					<p><b>NOTE</b>: In case you're using non-Oracle JRE, you'll have to a) set JAVA_HOME environment 
+					variable to point to JRE location, OR b) use zip package instead</p>
 					
 					<div class="section_btn">
-						<a href="https://github.com/pgptool/pgptool/releases/download/0.5.4.0/pgptoolgui-0.5.4.0.msi"> 
+						<a href="https://github.com/pgptool/pgptool/releases/download/0.5.9.0/pgptoolgui-0.5.9.0.msi"> 
 							<button class="btn btn-default" type="submit"> 
 							<i class="fa fa-download" aria-hidden="true"></i> Download</button>
 						</a>
@@ -185,16 +183,37 @@
 					Details can be found <a href="https://github.com/pgptool/pgptool/wiki/Manual-installation" target="_blank">here</a> <i class="fa fa-external-link" aria-hidden="true"></i> 
 					Bottom line: you’ll need to download, unzip and run it using java. If Double-click doesn’t work, then run following command line:
 					</p> 
-					<pre>java -jar pgptoolgui-0.5.4.0.jar</pre>
+					<pre>java -jar pgptoolgui-0.5.9.0.jar</pre>
 
 					<div class="section_btn">
-						<a href="https://github.com/pgptool/pgptool/releases/download/0.5.4.0/pgptoolgui-0.5.4.0.zip"> 
+						<a href="https://github.com/pgptool/pgptool/releases/download/0.5.9.0/pgptoolgui-0.5.9.0.zip"> 
 							<button class="btn btn-default" type="submit"> 
 							<i class="fa fa-download" aria-hidden="true"></i> Download</button>
 						</a>
 					</div>					
 					<p>(~14mb)</p>
 				</div>
+				
+				<div class="section_heading section_heading_2">
+					<h2> Java Runtime Environment </h2>
+				</div>
+
+				<div class="col-md-6 section_heading section_heading_2">
+					<h4> Option 1: Oracle JRE </h4>
+					<p>Technically easiest and conventional way of getting JRE is getting it from  
+					<a href="https://java.com/en/download/" target="_blank">official Oracle website</a> <i class="fa fa-external-link" aria-hidden="true"></i> </p>
+					<p><b>But</b> relatively recently Oracle decided to charge for JRE, that's why you might want to use Option #2 which also works, but 
+					not as plug-n-play as Oracle's</p>
+				</div>
+				<div class="col-md-6 section_heading section_heading_2">
+					<h4> Option 2: Alternative JREs </h4>
+					<p>There are number of alternative JRE distributions. I recommend to use Amazon's 
+					<a href="https://github.com/corretto/corretto-8/releases/tag/8.232.09.1" target="_blank">Corretto</a> <i class="fa fa-external-link" aria-hidden="true"></i></p>
+					<p><b>NOTE</b>: In case you're using Windows Installer package for PGPTool, you'll have to set JAVA_HOME environment 
+					variable to point to JRE location. <a href="https://mkyong.com/java/how-to-set-java_home-on-windows-10/" target="_blank">Here are</a> 
+					<i class="fa fa-external-link" aria-hidden="true"></i> the step-by-step instructions on how this can be done</p>
+				</div>
+				
 			</div>
 		</div>
 		<div class="row">
@@ -392,7 +411,7 @@
 						issue</a> <i class="fa fa-external-link" aria-hidden="true"></i> on a Github. Please make sure to describe:</p>
 						<ul>
 							<li>All steps one can take to reproduce this issue</li>
-							<li>Tell us about your program and operation system type and version, i.e. PGPTool v0.5.4.0, Windows 10</li>
+							<li>Tell us about your program and operation system type and version, i.e. PGPTool v0.5.9.0, Windows 10</li>
 							<li>Provide relevant screenshots</li>
 							<li>Any other info concerning this issue</li>
 						</ul>
