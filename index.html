@@ -24,7 +24,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -FREQ->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -132,8 +132,8 @@
                 <div class="col-md-6">
                     <div class="features_detail">
                         <ul>
-                            <li>Automatically suggests encryption/decryption parameters - no need to enter everything
-                                manually
+                            <li>Automatically suggests encryption/decryption parameters based on your previous actions
+                                — no need to enter everything manually every time
                             </li>
                             <li>Helps to avoid leaving sensitive data in un-encrypted state</li>
                             <li>Compatible with OpenPGP specification</li>
@@ -212,11 +212,10 @@
                 <div class="col-md-6 section_heading section_heading_2">
                     <h4> Option 1: Oracle JRE </h4>
                     <p>Technically, the easiest and conventional way of getting JRE is getting it from
-                        <a href="https://java.com/en/download/" target="_blank">official Oracle website</a> <i
-                                class="fa fa-external-link" aria-hidden="true"></i></p>
+                        <a href="https://www.oracle.com/java/technologies/downloads/" target="_blank">official Oracle
+                            website</a> <i class="fa fa-external-link" aria-hidden="true"></i></p>
                     <p><b>But</b> Oracle decided to charge for JRE, that's why you might want to use Option #2 which
-                        also works, but
-                        not as plug-n-play as Oracle's</p>
+                        also works, but not as plug-n-play as Oracle's</p>
                 </div>
                 <div class="col-md-6 section_heading section_heading_2">
                     <h4> Option 2: Alternative JREs </h4>
@@ -534,9 +533,8 @@
                     <p><b>Question:</b> How to delete decryption history?</p>
                     <p><b>Answer:</b> There is no option for this in the application itself because it goes against the
                         whole idea of this application. But you can delete respective file from the filesystem if
-                        needed. Go to your user home folder and delete file
-                    <pre>.pgptool\configs\ConfigPairsEnvelop.decr-params"</pre>
-                    </p>
+                        needed. Go to your user home folder and delete file</p>
+                    <pre>.pgptool\configs\ConfigPairsEnvelop.decr-params</pre>
                 </div>
 
                 <div class="col-md-12 light_plate faq_item">
@@ -552,16 +550,26 @@
                     <p><b>Answer:</b> Practically speaking, there is no way to do it. With HDDs we could've made fair
                         attempt, but nowadays we mostly use SSDs, and with them it is <b>practically</b> impossible. If
                         you're super concerned about leaving any traces of decrypted information, then create RAM disk
-                        (google how to do it) and decrypt into RAM instead of disk
+                        (google how to do it) and decrypt into RAM instead of physical disk
                     </p>
                     <p>Also, there are two alternative options:</p>
                     <ol>
                         <li>For text files only: decrypt them in memory without saving on disk</li>
                         <li>Decrypt text instead of files - PGP Tool has option to decrypt text from clipboard</li>
                     </ol>
-
                 </div>
 
+                <div class="col-md-12 light_plate faq_item">
+                    <p><b>Question:</b> How to change location of application configs?</p>
+                    <p><b>Answer:</b> This is usually needed only by a small subset of advanced users. If that is
+                        your case, then create file...</p>
+                    <pre>custom.properties</pre>
+                    <p>... near the pgptoolgui-0.5.9.3.jar file (located in the installation folder), and add following
+                        line (replace "d:\\" with the path you need):</p>
+                    <pre>configs.custom-base-path=d:\\</pre>
+                    <p>... then save this file, close application, move existing configs folder "user home"/.pgptool to
+                        the specified path (in the example above "d:\\.pgptool") and start application again</p>
+                </div>
             </div>
         </div>
     </div>
