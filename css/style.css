@@ -9,17 +9,17 @@
 ::selection { background:#64bb67; color:#fff; text-shadow: none; }
 
  body {
-	background:#fff;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: 30px;
-	overflow-x:hidden;
-	position:relative;
-	font-weight:300;
+    background:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    overflow-x:hidden;
+    position:relative;
+    font-weight:300;
 } 
 section {
   clear: both;
-  padding:110px 0;
+  padding:60px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,29 +27,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 66px;
-}
-h2{
   font-size: 46px;
 }
+h2{
+  font-size: 32px;
+}
 h3 {
-  font-size: 36px;
+  font-size: 26px;
 }
 h4{
-  font-size: 32px;	
+  font-size: 22px; 
 }
 h5 {
-	font-size: 26px;
+    font-size: 18px;
 }
 h6{
-	font-size: 22px;
+    font-size: 16px;
 }
 
 
 p{
-	font-size:16px;
-	color:#585858;
-	line-height:27px;
+    font-size:13px;
+    color:#585858;
+    line-height:22px;
+}
+
+/* Slightly tighten navbar/menu density for a leaner look on desktop */
+.navbar-default .navbar-nav > li > a {
+    font-size: 13px;
+    padding: 10px 12px;
+}
+
+/* Reduce section heading spacing if defined via utility classes */
+.section_heading h2,
+.section_heading_2 h2 {
+    margin-bottom: 12px;
+}
+.section_heading h4,
+.section_heading_2 h4 {
+    margin-top: 8px;
 }
 
 .left_text {
@@ -1000,18 +1016,18 @@ section.top_banner_bg:after {
 }
 
 .present h1 {
-  font-size: 54px;
+  font-size: 38px;
   font-weight: 300;
   color: #fff;
-  line-height:76px;
-  padding-bottom:120px;
+  line-height: 52px;
+  padding-bottom: 40px;
 }
 
 .present2 h1 {
-  font-size: 54px;
+  font-size: 38px;
   font-weight: 300;
   color: #fff;
-  line-height:76px;
+  line-height: 52px;
 }
 
 .present h5 {
@@ -1035,11 +1051,11 @@ section.top_banner_bg:after {
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
   color: hsl(0, 0%, 100%);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 64px;
-  margin: 40px 5px 0;
-  padding: 5px 35px;
+  line-height: 44px;
+  margin: 24px 5px 0;
+  padding: 2px 24px;
   text-shadow: 1px 1px 1px hsl(0, 0%, 0%);
   font-family: roboto slab;
 }
@@ -1077,17 +1093,17 @@ section.top_banner_bg:after {
   border-bottom: 1px solid hsl(0, 0%, 75%);
   display: inline-block;
   font-weight: 300;
-  line-height: 64px;
-  margin-bottom: 60px;
+  line-height: 46px;
+  margin-bottom: 32px;
   margin-top: 0;
-  padding: 0 10px 10px;
+  padding: 0 10px 6px;
   position: relative;
   text-transform: uppercase;
 }
 
 
 .section_heading h2::after {
-  bottom: -34px;
+  bottom: -24px;
   content: "";
   font-family: fontawesome;
   font-size: 30px;
